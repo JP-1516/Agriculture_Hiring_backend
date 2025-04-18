@@ -1,0 +1,14 @@
+IIMP ====>>>>>> app.js ma code mukvo jyare user.js vadi file ne call karvi hoy to aa code node nu basic 6e 
+
+
+console.log("Hellooo....")
+var user=require("./user")
+//single module export call
+console.log(user)
+
+// json module export call
+console.log(user.name)
+console.log(user.age)
+
+// function call
+user.printuserdata(500)
